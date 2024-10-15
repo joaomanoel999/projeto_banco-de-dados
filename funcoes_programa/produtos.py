@@ -8,7 +8,7 @@ produtos = []
 def cadastrar_produtos(produtos):
         
         cabecalho('Adicionando um novo cadastro!')
-        nome = str(input('digite nome do produto: '))
+        nome = str(input('digite nome do produto: ')).strip()
         valor = input_int('digite o valor do produto: ')
 
         dicio_produto = {

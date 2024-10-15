@@ -6,7 +6,7 @@ usuarios = {}
 
 def login(usuarios):
     usuarios= { 
-        'email': '1234',
+        'email': 'joao@gmail.com',
         'senha': '1234'
     }
     cabecalho('LOGIN')
